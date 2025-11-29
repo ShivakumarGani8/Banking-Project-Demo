@@ -1,0 +1,28 @@
+ParabankFramework
+│
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── base
+│   │       │   └── BaseTest.java
+│   │       │
+│   │       ├── pages
+│   │       │   ├── LoginPage.java
+│   │       │   ├── DashboardPage.java
+│   │       │
+│   │       ├── utils
+│   │       │   ├── ConfigReader.java
+│   │       │   └── WaitHelper.java
+│   │
+│   └── test
+│       └── java
+│           └── tests
+│               ├── LoginTest.java
+│
+├── src
+│   └── test
+│       └── resources
+│           └── config.properties
+│
+├── testng.xml
+├── pom.xml
